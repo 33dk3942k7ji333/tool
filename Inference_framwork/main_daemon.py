@@ -33,10 +33,7 @@ class PredictorThread(threading.Thread):
             for batch_id, _data in enumerate(data_chunker(self.data, self.pred_batch_size)):
                 logger.info(f'Batch {batch_id}, Get: {_data}')
                 self.shared_queue.put(_data)
-                time.sleep(3)
-                if batch_id >= 2:
-                    logger.info("HIHI")
-                    raise Exception
+                time.sleep(1)
         except Exception as e:
             logger.error(f'Get Error : {e}')
         logger.info(f'Predict Done')
@@ -56,7 +53,7 @@ class UploaderThread(threading.Thread):
                     logger.info(f'Predict Thread Finish!!!!!!!!!!!!')
                     break
                 else:
-                    time.sleep(3)
+                    time.sleep(2)
             else:
                 try:
                     self.shared_queue.get(timeout=5)
@@ -77,19 +74,17 @@ class InferenceMgr:
         self.uploader = UploaderThread(self.shared_queue, self.flag_finish_pred, name="Uploader", daemon=True)
 
     def start_pred(self):
-        
         self.predictor.start()
         self.uploader.start()
-        time.sleep(3)
-        self.predictor.join()
-        
+        while self.predictor.is_alive(): 
+            self.predictor.join(1)
         logger.info(f'Predict Thread Finish?')
         self.flag_finish_pred.set()
         self.uploader.join()
 
 
 def main():
-    data = list(range(1, 100))
+    data = list(range(1, 20))
     infMgr = InferenceMgr({}, data)
     infMgr.start_pred()
 
