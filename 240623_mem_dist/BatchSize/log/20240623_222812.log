@@ -1,0 +1,41 @@
+2024-06-23 22:28:12 [INFO] - FUNCTION TIMER - Function [gen_data] Took 0.0175 sec
+2024-06-23 22:28:12 [INFO] - Gen Data Shape: (40000, 6)
+2024-06-23 22:28:12 [INFO] - Feature: ['Part', 'Reticle', 'Prev1Reticle', 'Tool', 'Prev1Tool', 'Prev2Tool']
+2024-06-23 22:28:19 [INFO] - df_data_le Shape: (10240000, 6)
+2024-06-23 22:28:19 [INFO] - onehot_data Shape: (10240000, 100)
+2024-06-23 22:28:19 [INFO] - Batch 0: 0~1000000
+2024-06-23 22:29:24 [INFO] - FUNCTION TIMER - Function [manhattan] Took 65.3524 sec
+2024-06-23 22:29:24 [INFO] - Batch 1: 1000000~2000000
+2024-06-23 22:30:40 [INFO] - FUNCTION TIMER - Function [manhattan] Took 76.1024 sec
+2024-06-23 22:30:41 [INFO] - Batch 2: 2000000~3000000
+2024-06-23 22:31:52 [INFO] - FUNCTION TIMER - Function [manhattan] Took 70.5021 sec
+2024-06-23 22:31:53 [INFO] - Batch 3: 3000000~4000000
+2024-06-23 22:33:05 [INFO] - FUNCTION TIMER - Function [manhattan] Took 71.8421 sec
+2024-06-23 22:33:05 [INFO] - Batch 4: 4000000~5000000
+2024-06-23 22:34:11 [INFO] - FUNCTION TIMER - Function [manhattan] Took 65.4977 sec
+2024-06-23 22:34:12 [INFO] - FUNCTION TIMER - Function [manhattan_method] Took 353.3098 sec
+2024-06-23 22:34:19 [INFO] - Batch 0: 0~1000000
+2024-06-23 22:34:34 [INFO] - FUNCTION TIMER - Function [hamming] Took 14.4579 sec
+2024-06-23 22:34:34 [INFO] - Batch 1: 1000000~2000000
+2024-06-23 22:34:48 [INFO] - FUNCTION TIMER - Function [hamming] Took 14.4160 sec
+2024-06-23 22:34:48 [INFO] - Batch 2: 2000000~3000000
+2024-06-23 22:35:03 [INFO] - FUNCTION TIMER - Function [hamming] Took 14.5472 sec
+2024-06-23 22:35:03 [INFO] - Batch 3: 3000000~4000000
+2024-06-23 22:35:17 [INFO] - FUNCTION TIMER - Function [hamming] Took 14.6357 sec
+2024-06-23 22:35:17 [INFO] - Batch 4: 4000000~5000000
+2024-06-23 22:35:32 [INFO] - FUNCTION TIMER - Function [hamming] Took 14.4944 sec
+2024-06-23 22:35:32 [INFO] - FUNCTION TIMER - Function [hamming_method] Took 72.8554 sec
+2024-06-23 22:35:32 [INFO] - ===== Cost Time =====
+2024-06-23 22:35:32 [INFO] - Function [gen_data], Batch: 0 cost 0.0175
+2024-06-23 22:35:32 [INFO] - Function [manhattan], Batch: 0 cost 65.3524
+2024-06-23 22:35:32 [INFO] - Function [manhattan], Batch: 1 cost 76.1024
+2024-06-23 22:35:32 [INFO] - Function [manhattan], Batch: 2 cost 70.5021
+2024-06-23 22:35:32 [INFO] - Function [manhattan], Batch: 3 cost 71.8421
+2024-06-23 22:35:32 [INFO] - Function [manhattan], Batch: 4 cost 65.4977
+2024-06-23 22:35:32 [INFO] - Function [manhattan_method], Batch: 0 cost 353.3098
+2024-06-23 22:35:32 [INFO] - Function [hamming], Batch: 0 cost 14.4579
+2024-06-23 22:35:32 [INFO] - Function [hamming], Batch: 1 cost 14.4160
+2024-06-23 22:35:32 [INFO] - Function [hamming], Batch: 2 cost 14.5472
+2024-06-23 22:35:32 [INFO] - Function [hamming], Batch: 3 cost 14.6357
+2024-06-23 22:35:32 [INFO] - Function [hamming], Batch: 4 cost 14.4944
+2024-06-23 22:35:32 [INFO] - Function [hamming_method], Batch: 0 cost 72.8554

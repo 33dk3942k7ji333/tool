@@ -1,0 +1,3 @@
+2024-06-23 23:14:54 [INFO] - FUNCTION TIMER - Function [gen_data] Took 0.0146 sec
+2024-06-23 23:14:54 [INFO] - Gen Data Shape: (40000, 6)
+2024-06-23 23:14:54 [INFO] - Feature: ['Part', 'Reticle', 'Prev1Reticle', 'Tool', 'Prev1Tool', 'Prev2Tool']
