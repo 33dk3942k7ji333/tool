@@ -1,3 +1,0 @@
-https://stackoverflow.com/questions/23586510/return-multiple-columns-from-pandas-apply
-https://stackoverflow.com/questions/46045388/ipython-timeit-what-is-loop-and-iteration-in-the-options
-https://ys-l.github.io/posts/2015/08/28/how-not-to-use-pandas-apply/
