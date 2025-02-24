@@ -1,0 +1,57 @@
+{
+    "apName": "mGPT",
+    "sessionId": "1234567890",
+    "userId": "1234567890",
+    "history": [
+        {
+            "role": "user",
+            "name": "PPGPT",
+            "hist": "hello"
+        },
+        {
+            "role": "assistant",
+            "name": "host",
+            "hist": "shut up"
+        },
+        {
+            "role": "tool",
+            "name": "tool_1",
+            "hist": "one!"
+        },
+        {
+            "role": "tool",
+            "name": "tool_2",
+            "hist": "two!"
+        },
+        {
+            "role": "tool",
+            "name": "tool_3",
+            "hist": "three!"
+        },
+        {
+            "role": "tool",
+            "name": "tool_4",
+            "hist": "yeah!"
+        },
+        {
+            "role": "user",
+            "name": "PPGPT",
+            "hist": "yoyoyo"
+        },
+        {
+            "role": "assistant",
+            "name": "host",
+            "hist": "RWK"
+        },
+        {
+            "role": "tool",
+            "name": "tool_1",
+            "hist": "yee!"
+        },
+        {
+            "role": "tool",
+            "name": "tool_2",
+            "hist": "yeah!"
+        }
+    ]
+}
