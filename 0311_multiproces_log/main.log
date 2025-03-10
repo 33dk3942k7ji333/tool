@@ -1,0 +1,21 @@
+2025-03-11 02:52:07,203 - __main__ - INFO - Task list: ['a', 'b', 'c']
+2025-03-11 02:52:07,274 - __mp_main__ - INFO - Process a started.
+2025-03-11 02:52:07,277 - __mp_main__ - INFO - Process b started.
+2025-03-11 02:52:07,278 - __mp_main__ - INFO - Process c started.
+2025-03-11 02:52:09,278 - __mp_main__ - INFO - Process a completed.
+2025-03-11 02:52:09,282 - __mp_main__ - INFO - Process b completed.
+2025-03-11 02:52:09,285 - __mp_main__ - INFO - Process c completed.
+2025-03-11 02:57:38,885 - __main__ - INFO - Task list: ['a', 'b', 'c']
+2025-03-11 02:57:38,953 - __mp_main__ - INFO - Process a started.
+2025-03-11 02:57:38,953 - __mp_main__ - INFO - Process b started.
+2025-03-11 02:57:38,955 - __mp_main__ - INFO - Process c started.
+2025-03-11 02:57:40,954 - __mp_main__ - INFO - Process a completed.
+2025-03-11 02:57:40,955 - __mp_main__ - INFO - Process b completed.
+2025-03-11 02:57:40,956 - __mp_main__ - INFO - Process c completed.
+2025-03-11 02:59:45,144 - __main__ - INFO - Task list: ['a', 'b', 'c']
+2025-03-11 02:59:45,211 - __mp_main__ - INFO - Process a started.
+2025-03-11 02:59:45,212 - __mp_main__ - INFO - Process b started.
+2025-03-11 02:59:45,215 - __mp_main__ - INFO - Process c started.
+2025-03-11 02:59:47,211 - __mp_main__ - INFO - Process a completed.
+2025-03-11 02:59:47,213 - __mp_main__ - INFO - Process b completed.
+2025-03-11 02:59:47,215 - __mp_main__ - INFO - Process c completed.
