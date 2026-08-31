@@ -1,0 +1,47 @@
+/* 懸浮觸發區與側邊欄 */
+.sidebar-trigger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100vh;
+    z-index: 1040;
+}
+
+.custom-sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 250px;
+    height: 100vh;
+    z-index: 1050;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 當滑鼠移入觸發區或側邊欄時展開 */
+.sidebar-trigger:hover + .custom-sidebar,
+.custom-sidebar:hover {
+    left: 0;
+}
+
+/* 主內容區邊距調整 */
+.main-content {
+    padding: 2rem;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* 暗黑模式全域背景與文字支援 */
+[data-bs-theme="dark"] .main-content {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #333;
+}
